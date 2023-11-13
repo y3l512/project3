@@ -1,0 +1,171 @@
+body{ 
+  background:repeating-linear-gradient(90deg, #FFEAF1, #FFEAF1 20px, #FFFFFF 0, #FFFFFF 40px);
+}
+
+p{
+  font-size: 13px;
+  color: #868E96;
+  font-weight: 500;
+}
+
+nav{
+  overflow: hidden;   
+  background-color: #E8EAF3;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #E8EAF3;
+  padding: 30px;
+  clear:left;
+}
+
+.la-img{
+  float: left;
+  padding-top: 0.3em;
+}
+
+.la-sub{
+  text-align: left;
+  padding-top: 0.1em;
+}
+
+.la-wrap{
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-wrap{
+  padding-left: 20px;
+  width: 50%;
+
+}
+
+.img-wrap{
+  width: 50%;
+}
+
+#onpage{
+  background-color: #F6638F;
+}
+
+.img-container > a:hover{
+  transition: 0.5s;
+  background-color: #FFCBDA;
+  filter: opacity(0.5) blur(2px);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#rsm-img{
+  width: 30px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+img{
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+  position: inherit;
+}
+
+iframe{
+  width: 70%;
+  height: 200px;
+  margin: 20px auto;
+  padding: 50px;
+  border: 0px;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+nav ul li{
+  float: left;
+  position: relative;
+  display: block;
+  right: 50%;
+  list-style-type: none; 
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  text-shadow: -3px 0px #F6638F, 0px 3px #F6638F, 3px 0px #F6638F, 0px -3px #F6638F;
+}
+
+nav ul li a{
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover{
+  background-color: #FFCBDA;
+}
+
+section{
+  color: black;
+  background: linear-gradient(180deg, #FEFACA 80px, white 10px);
+  width:60%;
+  overflow: hidden;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 
+    0 0 0 3px #F6638F,  
+    0 0 0 10px #FFFFFF;
+  text-align: center;
+  margin: 40px auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.sec-wrap{
+  padding-top: 100px;
+}
+
+.site-title-wrap{
+  width: 100%;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.site-title{
+  color: #FFFFFF;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
+  font-size: 40px;
+  padding-left: 50px;
+  margin: 50px 10% 50px auto;
+  float: left;
+}
+
+.sec-title{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: -2px 0px #FFCBDA, 0px 2px #FFCBDA, 2px 0px #FFCBDA, 0px -2px #FFCBDA;
+  color: #FFFFFF;
+}
+
+.sub-title{
+  color: #FFCBDA;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+
+
