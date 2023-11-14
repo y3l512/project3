@@ -68,7 +68,9 @@ footer{
 }
 
 #map{
-  height: 600px;
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 img{
@@ -119,6 +121,12 @@ nav ul li a:hover{
   background-color: #FFCBDA;
 }
 
+#sec-map{
+  width: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 section{
   color: black;
   background: linear-gradient(180deg, #FEFACA 80px, white 10px);
@@ -133,6 +141,8 @@ section{
   border-radius: 10px;
   position: relative;
 }
+
+
 
 .sec-wrap{
   padding-top: 100px;
