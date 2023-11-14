@@ -1,16 +1,3 @@
-// $(document).ready(function(){
-//   $('.my_bxslider').bxSlider({
-//     auto: true,
-//     speed: 500,
-//     slideMargin:10,
-//     responsive: true,
-//     minSlides: 1,
-//     maxSlides: 1,
-//     slideWidth: 1000,
-//     slideHeight: 10,
-//     slideMargin: 10,
-//   });
-// });
 
 let map;
 
