@@ -67,6 +67,10 @@ footer{
   display: block;
 }
 
+#map{
+  height: 600px;
+}
+
 img{
   display: flex;
   width: 90%;
