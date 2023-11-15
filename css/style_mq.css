@@ -16,21 +16,7 @@ footer{
   background-color: #E8EAF3;
   padding: 30px;
   clear:left;
-}
-
-.la-img{
-  float: left;
-  padding-top: 0.3em;
-}
-
-.la-sub{
-  text-align: left;
-  padding-top: 0.1em;
-}
-
-.la-wrap{
-  display: flex;
-  flex-direction: row;
+  margin-top: 35px;
 }
 
 .sub-wrap{
@@ -64,11 +50,6 @@ footer{
   display: block;
 }
 
-#map{
-  height: 400px;
-  width: 90%;
-  margin: 0 auto;
-}
 
 img{
   display: flex;
@@ -76,14 +57,6 @@ img{
   height: auto;
   margin: 0 auto;
   padding: 30px;
-}
-
-iframe{
-  width: 70%;
-  height: 200px;
-  margin: 20px auto;
-  padding: 50px;
-  border: 0px;
 }
 
 nav ul{
@@ -117,12 +90,6 @@ nav ul li a:hover{
   background-color: #FFCBDA;
 }
 
-#sec-map{
-  width: auto;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
 section{
   color: black;
   background: linear-gradient(180deg, #FEFACA 80px, white 10px);
@@ -138,24 +105,10 @@ section{
   position: relative;
 }
 
-.sec-wrap{
-  padding-top: 100px;
-}
-
 .site-title-wrap{
   width: 100%;
   position: relative;
   padding-bottom: 10px;
-}
-
-.site-title{
-  color: #FFFFFF;
-  font-family: 'Press Start 2P', cursive;
-  text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
-  font-size: 40px;
-  padding-left: 50px;
-  margin: 50px 10% 50px auto;
-  float: left;
 }
 
 .sec-title{
@@ -175,20 +128,79 @@ section{
   margin-top: 30px;
 }
 
-.home_slider{
-  padding-top: 150px;
+.site-title{
+  color: #FFFFFF;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
+  font-size: 40px;
+  
 }
 
 @media screen{
   body{ 
-    /* background:repeating-linear-gradient(90deg, #FFEAF1, #FFEAF1 20px, #FFFFFF 0, #FFFFFF 40px);  */
-    background-color: pink;
+    background:repeating-linear-gradient(90deg, #FFEAF1, #FFEAF1 20px, #FFFFFF 0, #FFFFFF 40px); 
+  }
+
+  .site-title{
+    padding-left: 50px;
+    margin: 50px 10% 0px auto;
+  }
+
+  .sec-wrap{
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
-@media screen and (width < 400px) {
+@media (min-width: 0px) and (max-width: 440px) {
   body {
-    background-color: lightblue;
+    background:repeating-linear-gradient(90deg, #dff1f5, #dff1f5 20px, #FFFFFF 0, #FFFFFF 40px); 
+    text-align: center;
+  }
+
+  .site-title{
+    font-size: 28px;
+    text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
+  }
+
+  .sec-wrap{
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    text-align: center;
+  }
+
+  .sec-title{
+    font-size: 18px;
+  }
+
+  nav{
+    text-align: center;
+  }
+
+  nav ul{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    left: 50%;
+  }
+  
+  nav ul li{
+    position: relative;
+    display: block;
+    font-size: 17px;
+  }
+
+  p{
+    font-size: 17px;
+  }
+
+  .sub-title{
+    font-size: 18px;
+    font-weight: 50;
+  }
+
+  footer{
+    padding-bottom: 70px;
   }
 }
 
