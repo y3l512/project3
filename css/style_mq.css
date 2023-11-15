@@ -136,7 +136,7 @@ section{
   
 }
 
-@media screen{
+@media screen {
   body{ 
     background:repeating-linear-gradient(90deg, #FFEAF1, #FFEAF1 20px, #FFFFFF 0, #FFFFFF 40px); 
   }
@@ -152,7 +152,54 @@ section{
   }
 }
 
-@media (min-width: 0px) and (max-width: 440px) {
+@media (min-width: 431px) and (max-width: 820px) {
+  body {
+    background:repeating-linear-gradient(90deg, #FEFACA, #FEFACA 20px, #FFFFFF 0, #FFFFFF 40px); 
+    text-align: center;
+  }
+  .site-title{
+    font-size: 30px;
+    text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
+  }
+
+  .sec-wrap{
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    text-align: center;
+  }
+
+  .sec-title{
+    font-size: 25px;
+  }
+
+  nav{
+    text-align: center;
+  }
+
+  nav ul{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    left: 50%;
+  }
+  
+  nav ul li{
+    position: relative;
+    display: block;
+    font-size: 22px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  .sub-title{
+    font-size: 22px;
+    font-weight: 70;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 430px) {
   body {
     background:repeating-linear-gradient(90deg, #dff1f5, #dff1f5 20px, #FFFFFF 0, #FFFFFF 40px); 
     text-align: center;
@@ -200,7 +247,7 @@ section{
   }
 
   footer{
-    padding-bottom: 70px;
+    padding-bottom: 60px;
   }
 }
 
