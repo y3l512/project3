@@ -238,8 +238,11 @@ section{
   }
 
   .index-site-title{
-    font-size: 28px;
+    font-size: 32px;
     text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 
   .index-sec-wrap{
